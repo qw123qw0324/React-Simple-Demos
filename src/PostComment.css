@@ -1,0 +1,11 @@
+@import '~antd/dist/antd.css';
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font:14px normal Arial, sans-serif;
+}
