@@ -68,9 +68,9 @@ var Comment = [
 
 
 
-//ReactDOM.render(<App items = { ['Home', 'Services', 'About', 'Contact us'] } />, document.getElementById('root'));
-//ReactDOM.render(<SearchExample items={libraries}/>, document.getElementById('root'));
-//ReactDOM.render(<ServiceChooser items={services}/>, document.getElementById('root'));
+ReactDOM.render(<App items = { ['Home', 'Services', 'About', 'Contact us'] } />, document.getElementById('root'));
+ReactDOM.render(<SearchExample items={libraries}/>, document.getElementById('root'));
+ReactDOM.render(<ServiceChooser items={services}/>, document.getElementById('root'));
 ReactDOM.render(<PictureList items={pictures}/>, document.getElementById('root'));
 ReactDOM.render(<SearchPeople items={people}/>, document.getElementById('root'));
 ReactDOM.render(<PostComment items={Comment}/>, document.getElementById('root'));
