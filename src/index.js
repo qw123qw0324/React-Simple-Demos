@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 //import App from './App';
-//import SearchExample from './SearchExample'
-//import ServiceChooser from './ServiceChooser'
-//import PictureList from './PictureList'
+import SearchExample from './SearchExample'
+import ServiceChooser from './ServiceChooser'
+import PictureList from './PictureList'
 //import SearchPeople from './SearchPeople'
 import PostComment from './PostComment'
 import registerServiceWorker from './registerServiceWorker';
