@@ -5,8 +5,8 @@ import './index.css';
 //import SearchExample from './SearchExample'
 //import ServiceChooser from './ServiceChooser'
 //import PictureList from './PictureList'
-import SearchPeople from './SearchPeople'
-//import PostComment from './PostComment'
+//import SearchPeople from './SearchPeople'
+import PostComment from './PostComment'
 import registerServiceWorker from './registerServiceWorker';
 
 //ReactDOM.render(<App items = { ['Home', 'Services', 'About', 'Contact us'] } />, document.getElementById('root'));
@@ -72,7 +72,7 @@ var Comment = [
 //ReactDOM.render(<SearchExample items={libraries}/>, document.getElementById('root'));
 //ReactDOM.render(<ServiceChooser items={services}/>, document.getElementById('root'));
 //ReactDOM.render(<PictureList items={pictures}/>, document.getElementById('root'));
-ReactDOM.render(<SearchPeople items={people}/>, document.getElementById('root'));
-//ReactDOM.render(<PostComment items={Comment}/>, document.getElementById('root'));
+//ReactDOM.render(<SearchPeople items={people}/>, document.getElementById('root'));
+ReactDOM.render(<PostComment items={Comment}/>, document.getElementById('root'));
 
 registerServiceWorker();
